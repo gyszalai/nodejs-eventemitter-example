@@ -2,13 +2,13 @@
     "name": "nodejs-eventemitter-example",
     "description": "Simple example to explore Node.JS events module",
     "version": "0.1",
-    "main": "./main.js",
+    "main": "main.js",
     "author": {
         "name": "gyszalai",
         "email": "gyszalai@gmail.com"
     },
-    "keywords": [node.js, events],
-    "licenses": {
+    "keywords": ["node.js", "events"],
+    "license": {
         "type": "apache20"
     },
     "repository": {
@@ -17,5 +17,5 @@
     },
     "bugs": {
         "web": "http://github.com/gyszalai/nodejs-eventemitter-example/issues"
-    },
+    }
 }
