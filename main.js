@@ -7,8 +7,6 @@ channel.addListener('message', function (msg) {
    console.log('Message: ' + msg.text);
 });
 
-var clientState = {};
-
 var server = net.createServer(function(socket) {
     
     var id = socket.remoteAddress + ":" + socket.remotePort;
